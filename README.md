@@ -1,3 +1,5 @@
+<a name="readme-top"></a>
+
 <br />
 <div align="center">
   <a href="https://github.com/Turbocube/server-1.19">
@@ -9,9 +11,10 @@
   <p align="center">
     The third turbocube minercraft server version!
     <br />
-    <a href="https://github.com/Turbocube/server-1.19">View Demo</a>
+    <a href="https://turbocube.fr/">View Demo</a>
     ·
     <a href="https://github.com/Turbocube/server-1.19/issues">Report Bug</a>
+    <br />
     <br />
     <br />
   </p>
@@ -57,11 +60,14 @@ Follow these steps to get the Turbocube server running on your local machine.
 ### Installation
 
 1. Clone the repo
+
    ```sh
    git clone https://github.com/Turbocube/server-1.19.git
    ```
 2. You can change the server settings in `spigot.yml`
+
 3. Enter your Discord infos in `DiscordLink/config.yml`
+
    ```yml
    discord:
     token: YOUR DISCORD TOKEN
@@ -74,6 +80,7 @@ Follow these steps to get the Turbocube server running on your local machine.
       channel_id: YOUR CHANNEL ID
    ```
 4. And then your minecraft infos in `ops.json`
+
    ```json
     {
       "uuid": "YOUR_ID",
@@ -82,8 +89,6 @@ Follow these steps to get the Turbocube server running on your local machine.
       "bypassesPlayerLimit": false
     }
    ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Usage
 
